@@ -5,7 +5,7 @@ module miniflux.app/v2
 require (
 	github.com/PuerkitoBio/goquery v1.10.2
 	github.com/andybalholm/brotli v1.1.1
-	github.com/coreos/go-oidc/v3 v3.12.0
+	github.com/coreos/go-oidc/v3 v3.16.0
 	github.com/go-webauthn/webauthn v0.12.1
 	github.com/gorilla/mux v1.8.1
 	github.com/lib/pq v1.10.9
@@ -30,7 +30,7 @@ require (
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/fxamacker/cbor/v2 v2.7.0 // indirect
-	github.com/go-jose/go-jose/v4 v4.0.5 // indirect
+	github.com/go-jose/go-jose/v4 v4.1.3 // indirect
 	github.com/google/uuid v1.6.0 // indirect
 	github.com/klauspost/compress v1.17.11 // indirect
 	github.com/mitchellh/mapstructure v1.5.0 // indirect
@@ -45,6 +45,4 @@ require (
 	google.golang.org/protobuf v1.36.1 // indirect
 )
 
-go 1.23.0
-
-toolchain go1.24.0
+go 1.24.0
