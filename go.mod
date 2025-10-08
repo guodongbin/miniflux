@@ -12,11 +12,11 @@ require (
 	github.com/mattn/go-sqlite3 v1.14.24
 	github.com/prometheus/client_golang v1.21.1
 	github.com/tdewolff/minify/v2 v2.21.3
-	golang.org/x/crypto v0.36.0
+	golang.org/x/crypto v0.42.0
 	golang.org/x/image v0.25.0
-	golang.org/x/net v0.37.0
+	golang.org/x/net v0.45.0
 	golang.org/x/oauth2 v0.28.0
-	golang.org/x/term v0.30.0
+	golang.org/x/term v0.35.0
 )
 
 require (
@@ -40,11 +40,9 @@ require (
 	github.com/prometheus/procfs v0.15.1 // indirect
 	github.com/tdewolff/parse/v2 v2.7.19 // indirect
 	github.com/x448/float16 v0.8.4 // indirect
-	golang.org/x/sys v0.31.0 // indirect
-	golang.org/x/text v0.23.0 // indirect
+	golang.org/x/sys v0.36.0 // indirect
+	golang.org/x/text v0.29.0 // indirect
 	google.golang.org/protobuf v1.36.1 // indirect
 )
 
-go 1.23.0
-
-toolchain go1.24.0
+go 1.24.0
